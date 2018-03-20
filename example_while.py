@@ -1,5 +1,5 @@
 
-numero_inicial = 10
+numero_inicial = 11
 
 while numero_inicial > 0:
     numero_inicial =- 1
