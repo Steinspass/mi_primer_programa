@@ -19,3 +19,4 @@ for item in texto_usuario:
 print("las comas son {}".format(n_comas))
 print("las punto son {}".format(n_punto))
 print("las espacio son {}".format(n_espacio))
+print("ha acabado")
