@@ -10,3 +10,14 @@ while not salida:
         nombre =input("Nombre:")
         numero = input("Numero:")
         agenda.append([nombre, numero])
+    elif accion == "C":
+        print("consultar numero:")
+        print("--------------------------------------")
+        nombre = input("de quien quieres el numero:")
+        for nombre_numero in agenda:
+            if nombre_numero [0] == nombre:
+                print(nombre_numero[1])
+
+
+    elif accion == "S":
+        salida =True
